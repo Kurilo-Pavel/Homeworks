@@ -1,0 +1,27 @@
+<style> 
+        
+        *{}
+
+        [href] {
+            color: blue;
+        }
+
+	span {
+            transform: rotate(360deg);
+            writing-mode: vertical-lr;
+            color: #f70;
+        }
+
+        ul {
+            font-size: 30px;
+        }
+
+        a[href*="google"] {
+            color: #660;
+        }
+
+        a[href$="ru/"] {
+            color: #f70;
+            text-decoration-line: underline;
+        }
+    </style>
