@@ -1,0 +1,66 @@
+<style>
+body {
+            background-color: black;
+        }
+        div {
+            width: 50%;
+            position: absolute;
+            left: 25%;
+            background-color: white;
+        }
+        h1 {
+            font-size: 30px;
+            color: orange;
+            text-align: right;
+        }
+        p:first-letter {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 200%;
+            color: red;
+        }
+        em {
+            background-color: green;
+            color: white;
+        }
+        h2 {
+            color: orange;
+        }
+        span {
+            font-weight: bold;
+        }
+        ol {
+            color: grey
+        }
+        li + li span + ol {
+            color: red;
+        }
+        ul + h2 + ul li > span + ol {
+            color: green;
+        }
+        ul + h2 + ul li + li > span + ol {
+            color: red;
+        }
+        Ul + h2 {
+            color: blue;
+        }
+        table {
+            border: 1px solid grey;
+            width: 70%;
+            text-align: center;
+            font-weight: bold;
+        }
+        td {
+            border: 1px solid grey;
+            border-collapse: separate;
+        }
+        tr + tr + tr > td + td {
+            background: green;
+            color: white;
+            font-weight: normal;
+            text-align: center;
+        }
+        tr + tr + tr > td {
+            color: orange;
+            text-align: left;
+        }
+</style>
