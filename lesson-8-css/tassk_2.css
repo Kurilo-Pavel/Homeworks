@@ -1,0 +1,40 @@
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    width: 1032px;
+    background-color: #A64DFF;
+    margin: auto;
+    text-indent: 19px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+.menu li a {
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+
+    background-color: #EEEEEE;
+    color: #A1A09E;
+}
+
+ul > li:last-child {
+    float: right;
+    width: 145px;
+    padding: 0px 5px;
+}
+
+
