@@ -1,0 +1,73 @@
+div {
+  width: 750px;
+  margin: 60px auto;
+  background: #fdfdfd;
+  padding: 0;
+}
+
+div ul {
+  list-style-type: none;
+  padding: 0;
+  height: 35px;
+}
+
+div li {
+  display: inline;
+}
+
+div li a {
+  padding: 8px 12px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin: 0 2px;
+  color: #A13BCF;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+a:hover {
+  background: #A13BCF;
+  color: #fdfdfd;
+}
+
+li:nth-child(7) > a {
+  background: #A13BCF;
+  color: #fdfdfd;
+}
+
+li:nth-child(n+11) > a {
+  border: none;
+}
+
+li:nth-child(-n+2) > a {
+  border: none;
+}
+
+li:nth-child(5) > a {
+  border: none;
+}
+
+li:nth-child(5) {
+  display: inline-block;
+  margin-bottom: -10px; /* Почему не срабатывает?*/
+  border: none;
+  vertical-align: -8px;
+}
+
+li:nth-child(5) > a {
+  padding: 16px 12px 1px;
+}
+
+li:nth-child(-n+2) > a > span {
+  font-size: 7px;
+  display: inline-block;
+  vertical-align: 3px;
+  font-weight: bold;
+}
+
+li:nth-child(n+11) > a > span {
+  font-size: 7px;
+  display: inline-block;
+  vertical-align: 3px;
+  font-weight: bold;
+}
