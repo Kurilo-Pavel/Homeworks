@@ -1,0 +1,87 @@
+header {
+  font-family: Arial, sans-serif;
+  background: #EE8129;
+  border: 3px solid #EE8129;
+  border-radius: 5px;
+  width: 290px;
+  display: block;
+  margin-top: 5%;
+  margin-left: 40%;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section {
+  background: white;
+  padding-bottom: 10px;
+}
+
+section h1 {
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  display: inline;;
+}
+
+sup {
+  font-size: 18px;
+  vertical-align: 40px;
+}
+
+span {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+sub {
+  font-size: 18px;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style-image: url("arrow.png");
+  padding: 10px 10px 0px;
+}
+
+ul li {
+  margin: 2px;
+  padding: 7px 30px;
+  text-align: left;
+  list-style-position: inside;
+}
+
+ul li:nth-child(odd) {
+  background: #EDF5FD;
+}
+
+ul li:nth-child(even) {
+  background: #F5F5F6;
+}
+
+a {
+  display: block;
+  background: #EE8129;
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 18px;
+  padding: 10px 60px;
+  text-decoration: none;
+}
