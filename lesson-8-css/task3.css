@@ -1,0 +1,21 @@
+table {
+    border: 1px;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 100%;
+
+}
+
+tr:nth-child(2n+1) {
+    background: #ffffff;
+
+}
+
+tr:nth-child(2n) {
+    background: #DDEBF8;
+}
+
+td + td:nth-child(2n+1) {
+    background: #F2F2DD;
+}
