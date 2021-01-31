@@ -1,0 +1,71 @@
+span {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 3px 10px;
+  color: white;
+  font-size: 28px;
+  margin: 5px 3px;
+}
+
+.red {
+  background: #ff0000;
+}
+
+.green {
+  background: #008100;
+}
+
+.blue {
+  background: #0000ff;
+}
+
+label {
+  display: inline-block;
+  font-size: 28px;
+  padding: 3px 10px;
+  width: 100px;
+  margin: 5px 20px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label[for="red"] {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+#red:checked ~ [for="red"] {
+  color: #ffb3b2;
+}
+
+#red:checked ~ .red {
+  display: none;
+}
+
+label[for="green"] {
+  color: #008100;
+  text-decoration: underline;
+}
+
+#green:checked ~ [for="green"] {
+  color: #bcdfbc;
+}
+
+#green:checked ~ .green {
+  display: none;
+}
+
+label[for="blue"] {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+#blue:checked ~ [for="blue"] {
+  color: #b3b1ff;
+}
+
+#blue:checked ~ .blue {
+  display: none;
+}
