@@ -1,0 +1,79 @@
+div {
+  background: black;
+  width: 100%;
+  padding: 0 30px 50px;
+  text-align: center;
+  font-family: Arial, sans-serif
+}
+
+h1 {
+  font-size: 40px;
+  color: #5186B5;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+section {
+  background: white;
+  font-size: 15px;
+  display: inline-block;
+  margin: 20px 85px;
+  width: 360px;
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+section:before {
+  width: 1px;
+  border: 15px solid;
+  border-color: transparent white transparent transparent;
+  content: " ";
+  position: absolute;
+  right: 100%;
+  top: 40%;
+  display: block;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  margin: 0 25px;
+}
+
+hr {
+  border-top: dotted;
+  width: 90%;
+}
+
+.name {
+  float: left;
+  color: #5186B5;
+}
+
+.custome {
+  float: right;
+  color: #5186B5;
+}
+
+p {
+  color: grey;
+  padding: 5px 0 10px;
+  margin: 0;
+  line-height: 16px;
+}
+
+span {
+  padding: 5px;
+  font-style: italic;
+}
+
+h1 > span {
+  color: #F1944A;
+  font-style: normal;
+}
