@@ -1,1 +1,140 @@
-/* Write your code here */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  box-shadow: 0 0 10px 1px grey;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+  font-size: 22px;
+}
+
+nav ul {
+  margin: 15px;
+  padding: 0 40px 0 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.host a {
+  color: white;
+  background: red;
+  border-radius: 5px;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+nav img {
+  display: block;
+  position: relative;
+  height: 60px;
+  float: left;
+  left: 10px;
+}
+
+a:hover {
+  color: red;
+}
+
+.host a:hover {
+  background: white;
+}
+
+div {
+  position: relative;
+}
+
+h2 {
+  color: red;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+}
+
+span {
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mike {
+  display: inline-block;
+  margin-top: 90px;
+  width: 100%;
+  position: relative;
+}
+
+.mike article {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 60px;
+  width: 40%;
+  top: 20%;
+}
+
+.mike img {
+  width: 60%;
+  float: left;
+  box-shadow: 0 5px 10px 4px grey;
+}
+
+.john {
+  margin: 20px 0;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.john img {
+  float: right;
+  width: 60%;
+  box-shadow: 5px 0 10px 4px grey;
+}
+
+.john article {
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 60px;
+  width: 40%;
+  top: 20%;
+}
+
+footer {
+  background: black;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 10px;
+}
+
+footer li {
+  display: inline;
+  list-style-type: none;
+}
+
+footer a {
+  color: white;
+  padding: 20px;
+}
+
+footer a:hover {
+  color: grey;
+}
