@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="lesson-15.js">
+  <title>Task 1 - lesson 15</title>
+</head>
+<body>
+<script>
+  var fistName = prompt('Введите ваше имя');
+  var lastName = prompt('Введите свою фамилию');
+  var patrynomic = prompt('Введите свое отчество');
+  var age = parseInt(prompt('Сколько вам полных лет?'));
+  var gender = confirm('Ваш пол - мужской?');
+  var pension;
+  if (gender == true) {
+    gender = 'мужской'
+    if (age >= 65) {
+      pension = 'да'
+    } else {
+      pension = 'нет'
+    }
+  } else {
+    gender = 'женский'
+    if (age >= 60) {
+      pension = 'да'
+    } else {
+      pension = 'нет'
+    }
+  }
+  var fullName = lastName + ' ' + fistName + ' ' + patrynomic;
+  var old = age + 5;
+  var dayAge = age * 365;
+  alert('Ваше ФИО: ' + fullName + '\nВаш возраст в годах: ' + age + '\nВаш возраст в днях: ' + dayAge + '\nЧерез пять лет вам будет: ' + old
+    + '\nВаш пол: ' + gender + '\nВы на пенсии: ' + pension);
+</script>
+</body>
+</html>
